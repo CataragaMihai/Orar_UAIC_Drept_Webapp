@@ -205,7 +205,7 @@ function renderChanges() {
 function renderFooter() {
   const m = S.meta;
   $('updated').replaceChildren(
-    `Orar publicat ${m.published || '—'} · verificat ${new Date(m.scrapedAt).toLocaleString('ro-RO', { timeZone: TZ, dateStyle: 'short', timeStyle: 'short' })} · `,
+    `Orar publicat de facultate ${m.published || '—'} · `,
     el('a', { href: S.groupId ? `${m.source}/participanti/orar_${encodeURIComponent(S.groupId)}.html` : m.source, target: '_blank', rel: 'noopener' }, 'sursa'));
   $('ics-btn').hidden = !S.data;
 }
