@@ -36,6 +36,8 @@ jobs:
           git -c user.name="orar-bot" -c user.email="orar-bot@users.noreply.github.com" \
             commit -m "Update timetable data"
           git push
+      - name: Build calendar feeds
+        run: node scripts/build-cal.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

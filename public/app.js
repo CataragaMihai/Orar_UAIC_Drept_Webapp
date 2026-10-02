@@ -1,8 +1,8 @@
-'use strict';
 // Orar: reads the JSON written by scripts/scrape.mjs and shows one group's classes
-// by day. Odd/even weeks come from the faculty's own calendar (meta.weeks).
+// by day. The timetable logic itself lives in core.js, shared with the workflows.
+import * as C from './core.js';
 
-const TZ = 'Europe/Bucharest';
+const { TZ, VAPID_PUBLIC, toDate, addDays, dow, mondayOf, nowParts, mins } = C;
 const DAY_NAMES = ['Duminică', 'Luni', 'Marți', 'Miercuri', 'Joi', 'Vineri', 'Sâmbătă'];
 const DAY_SHORT = ['Du', 'Lu', 'Ma', 'Mi', 'Jo', 'Vi', 'Sâ'];
 const MONTHS = ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie',
@@ -27,19 +27,6 @@ const store = {
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} },
 };
 
-// ---- Dates: ISO strings, arithmetic on UTC midnight ---------------------------
-const toDate = iso => new Date(iso + 'T00:00:00Z');
-const toISO = d => d.toISOString().slice(0, 10);
-const addDays = (iso, n) => toISO(new Date(toDate(iso).getTime() + n * 864e5));
-const dow = iso => toDate(iso).getUTCDay();
-const mondayOf = iso => addDays(iso, -((dow(iso) + 6) % 7));
-const nowParts = () => {
-  const p = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
-    timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23',
-  }).formatToParts(new Date()).map(x => [x.type, x.value]));
-  return { iso: `${p.year}-${p.month}-${p.day}`, min: +p.hour * 60 + +p.minute };
-};
-const mins = hhmm => { const [h, m] = hhmm.split(':'); return +h * 60 + +m; };
 const longDate = iso => { const d = toDate(iso); return `${DAY_NAMES[d.getUTCDay()]}, ${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]}`; };
 const shortDate = iso => { const d = toDate(iso); return `${d.getUTCDate()} ${MON_SHORT[d.getUTCMonth()]}`; };
 
@@ -56,39 +43,10 @@ async function getJSON(path) {
   return r.json();
 }
 
-const weekOf = iso => S.meta.weeks.find(w => w.start <= iso && iso <= w.end) || null;
-const freeDay = iso => S.meta.freeDays.find(f => f.start <= iso && iso <= f.end) || null;
-const parityOf = n => (n % 2 === 0 ? 'even' : 'odd');
-
-function packages() {
-  const pk = new Map();
-  for (const l of [...S.data.weekly, ...S.data.unique]) {
-    if (!l.pkg) continue;
-    if (!pk.has(l.pkg)) pk.set(l.pkg, new Set());
-    pk.get(l.pkg).add(l.subject);
-  }
-  return [...pk.entries()].sort((a, b) => a[0].localeCompare(b[0], 'ro', { numeric: true }))
-    .map(([id, subs]) => ({ id, subjects: [...subs].sort((a, b) => a.localeCompare(b, 'ro')) }));
-}
-
-function lessonsOn(iso) {
-  if (!S.data) return { list: [], reason: null };
-  const v = S.meta.valid;
-  if (v && (iso < v.from || iso > v.to)) return { list: [], reason: 'out' };
-  const week = weekOf(iso);
-  const period = (S.meta.periods || []).find(p => p.start <= iso && iso <= p.end) || null;
-  const teaching = !S.meta.teaching || S.meta.teaching.some(t => t.start <= iso && iso <= t.end);
-  const free = freeDay(iso) || (!teaching && (period || { label: null }));
-  const keep = l => !S.hidden.has(l.subject);
-  const weekly = week && !free
-    ? S.data.weekly.filter(l => l.day === dow(iso)
-      && (!l.freq || l.freq === parityOf(week.n))
-      && (!l.weeks || l.weeks.includes(week.n)))
-    : [];
-  const unique = S.data.unique.filter(l => l.date === iso);
-  const list = [...weekly, ...unique].filter(keep).sort((a, b) => a.start.localeCompare(b.start));
-  return { list, reason: !week ? 'vacation' : !teaching && !period ? 'out' : free ? 'free' : null, free };
-}
+const weekOf = iso => C.weekOf(S.meta, iso);
+const freeDay = iso => C.freeDay(S.meta, iso);
+const packages = () => C.packages(S.data);
+const lessonsOn = iso => (S.data ? C.lessonsOn(S.meta, S.data, S.hidden, iso) : { list: [], reason: null });
 
 // ---- Rendering --------------------------------------------------------------------
 function typeClass(t) {
@@ -207,7 +165,7 @@ function renderFooter() {
   $('updated').replaceChildren(
     `Orar publicat de facultate ${m.published || '—'} · `,
     el('a', { href: S.groupId ? `${m.source}/participanti/orar_${encodeURIComponent(S.groupId)}.html` : m.source, target: '_blank', rel: 'noopener' }, 'sursa'));
-  $('ics-btn').hidden = !S.data;
+  $('notif-btn').hidden = !S.data;
 }
 
 function render() {
@@ -271,48 +229,77 @@ function openElectives() {
   renderBanner();
 }
 
-// ---- Calendar export (.ics) ---------------------------------------------------------
-function buildICS() {
-  const esc = s => String(s).replace(/\\/g, '\\\\').replace(/[;,]/g, m => '\\' + m).replace(/\n/g, '\\n');
-  const fold = line => line.length <= 60 ? line : line.match(/.{1,60}/gu).join('\r\n ');
-  const stamp = new Date().toISOString().replace(/[-:]/g, '').slice(0, 15) + 'Z';
-  const dt = (iso, hhmm) => `${iso.replace(/-/g, '')}T${hhmm.replace(':', '')}00`;
-  const lines = [
-    'BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//orar-app//RO', 'CALSCALE:GREGORIAN',
-    `X-WR-CALNAME:Orar ${S.groupId}`, `X-WR-TIMEZONE:${TZ}`,
-    'BEGIN:VTIMEZONE', `TZID:${TZ}`,
-    'BEGIN:DAYLIGHT', 'TZOFFSETFROM:+0200', 'TZOFFSETTO:+0300', 'TZNAME:EEST', 'DTSTART:19700329T030000', 'RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU', 'END:DAYLIGHT',
-    'BEGIN:STANDARD', 'TZOFFSETFROM:+0300', 'TZOFFSETTO:+0200', 'TZNAME:EET', 'DTSTART:19701025T040000', 'RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU', 'END:STANDARD',
-    'END:VTIMEZONE',
-  ];
-  const from = S.meta.valid?.from || S.meta.weeks[0].start;
-  const to = S.meta.teaching?.at(-1)?.end || S.meta.valid?.to || S.meta.weeks.at(-1).end;
-  let count = 0;
-  for (let iso = from; iso <= to; iso = addDays(iso, 1)) {
-    for (const l of lessonsOn(iso).list) {
-      count++;
-      lines.push('BEGIN:VEVENT',
-        `UID:${S.groupId}-${iso}-${l.start}-${count}@orar-app`,
-        `DTSTAMP:${stamp}`,
-        `DTSTART;TZID=${TZ}:${dt(iso, l.start)}`,
-        `DTEND;TZID=${TZ}:${dt(iso, l.end)}`,
-        `SUMMARY:${esc(`${l.subject} (${l.type})`)}`,
-        `LOCATION:${esc([l.room, l.building].filter(Boolean).join(', '))}`,
-        `DESCRIPTION:${esc(l.teacher)}`,
-        'END:VEVENT');
-    }
-  }
-  lines.push('END:VCALENDAR');
-  return { text: lines.map(fold).join('\r\n') + '\r\n', count };
+// ---- Notifications: calendar subscription + morning push --------------------------
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+const standalone = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+
+function calUrl() {
+  const key = C.calKey(S.data, S.hidden);
+  const u = new URL(`cal/${encodeURIComponent(S.groupId)}/${encodeURIComponent(key)}.ics`, location.href);
+  return { webcal: u.href.replace(/^https?:/, 'webcal:'), https: u.href, all: key === 'toate' };
 }
 
-function downloadICS() {
-  const { text, count } = buildICS();
-  const url = URL.createObjectURL(new Blob([text], { type: 'text/calendar;charset=utf-8' }));
-  const a = el('a', { href: url, download: `orar-${S.groupId}.ics` });
-  document.body.append(a); a.click(); a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 10e3);
-  $('ics-btn').textContent = `${count} ore exportate. Dacă orarul se schimbă, exportă din nou.`;
+const b64url = buf => btoa(String.fromCharCode(...new Uint8Array(buf))).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+const fromB64url = s => Uint8Array.from(atob(s.replace(/-/g, '+').replace(/_/g, '/')), c => c.charCodeAt(0));
+const utf8b64 = s => btoa(String.fromCharCode(...new TextEncoder().encode(s)));
+
+async function enablePush(out) {
+  out.replaceChildren(el('p', { class: 'help' }, 'Se activează…'));
+  try {
+    if (await Notification.requestPermission() !== 'granted') {
+      out.replaceChildren(el('p', { class: 'help' }, 'Notificările sunt blocate. Le poți permite din Setări → Notificări → Orar.'));
+      return;
+    }
+    const reg = await navigator.serviceWorker.ready;
+    const sub = await reg.pushManager.getSubscription()
+      || await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: fromB64url(VAPID_PUBLIC) });
+    const j = sub.toJSON();
+    const code = utf8b64(JSON.stringify({ g: S.groupId, h: [...S.hidden], e: j.endpoint, k: j.keys }));
+    store.set('orar.pushCode', code);
+    showCode(out, code);
+  } catch (err) {
+    out.replaceChildren(el('p', { class: 'help' }, `N-a mers: ${err.message}`));
+  }
+}
+
+function showCode(out, code) {
+  const box = el('textarea', { class: 'search code', readonly: true, rows: 3 }, code);
+  const send = el('button', { class: 'opt primary', type: 'button', onclick: async () => {
+    try {
+      if (navigator.share) await navigator.share({ text: code });
+      else { await navigator.clipboard.writeText(code); send.textContent = 'Copiat ✓'; }
+    } catch {}
+  } }, navigator.share ? 'Trimite codul' : 'Copiază codul');
+  out.replaceChildren(
+    el('p', { class: 'help' }, 'Gata pe telefon. Trimite-i codul acesta lui Mihai ca să pornească rezumatul. Dacă îți schimbi opționalele, trimite-l din nou.'),
+    box, el('div', { class: 'opts' }, send));
+}
+
+function openNotifications() {
+  const cal = calUrl();
+  const pushOut = el('div');
+  const code = store.get('orar.pushCode');
+  if (!('PushManager' in window) || !('serviceWorker' in navigator)) {
+    pushOut.append(el('p', { class: 'help' }, isIOS && !standalone()
+      ? 'Pe iPhone merge doar din aplicația de pe ecranul principal: în Safari apasă Distribuie → Adaugă pe ecranul principal, deschide Orar de acolo și revino aici.'
+      : 'Browserul acesta nu suportă notificări.'));
+  } else {
+    pushOut.append(el('div', { class: 'opts' }, el('button', { class: 'opt primary', type: 'button', onclick: () => enablePush(pushOut) },
+      code ? 'Generează codul din nou' : 'Activează')));
+    if (code) showCode(pushOut, code);
+  }
+  openSheet('Notificări', [
+    el('h4', {}, 'Memento înainte de fiecare oră'),
+    el('p', { class: 'help' }, 'Orarul apare în aplicația Calendar și te anunță cu 15 minute înainte de fiecare oră. Se actualizează singur când se schimbă orarul.'),
+    cal.all && packages().length
+      ? el('p', { class: 'help warn' }, 'Alege întâi câte o materie din fiecare pachet (Opționale), altfel apar toate opționalele.')
+      : null,
+    el('div', { class: 'opts' }, el('a', { class: 'opt primary', href: cal.webcal }, 'Abonează-te în Calendar')),
+    el('p', { class: 'help small' }, 'Dacă nu primești mementourile: Setări → Calendar → Conturi → Calendare abonate → Orar, și dezactivează eliminarea alarmelor.'),
+    el('h4', {}, 'Rezumatul de dimineață'),
+    el('p', { class: 'help' }, 'O notificare dimineața, în jur de 6:30, cu orele zilei. Doar în zilele cu ore.'),
+    pushOut,
+  ].filter(Boolean));
 }
 
 // ---- Boot -------------------------------------------------------------------------------
@@ -340,7 +327,7 @@ async function boot() {
 
   $('group-btn').onclick = openGroups;
   $('electives-btn').onclick = openElectives;
-  $('ics-btn').onclick = downloadICS;
+  $('notif-btn').onclick = openNotifications;
   $('prev-week').onclick = () => { S.selected = addDays(S.selected, -7); render(); };
   $('next-week').onclick = () => { S.selected = addDays(S.selected, 7); render(); };
 

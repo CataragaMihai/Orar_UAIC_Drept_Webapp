@@ -153,3 +153,8 @@ main { padding-top: 8px; }
   width: 100%; border: 1px solid var(--line); background: var(--card); color: var(--ink);
   border-radius: 12px; padding: 10px 14px; font: inherit; margin: 4px 0 4px;
 }
+
+.opt.primary { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; text-decoration: none; }
+.help.warn { color: var(--other); }
+.help.small { font-size: 13px; margin-top: 8px; }
+.code { font: 12px/1.3 ui-monospace, Menlo, monospace; resize: none; word-break: break-all; margin: 8px 0; }

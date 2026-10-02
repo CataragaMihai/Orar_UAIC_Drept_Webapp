@@ -1,0 +1,29 @@
+name: Morning summary
+
+on:
+  schedule:
+    # 03:30 and 04:30 UTC. scripts/morning.mjs only sends from the run that falls
+    # around 06:30 Bucharest time, which covers both summer and winter time.
+    - cron: '30 3,4 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Send now, ignoring the time of day
+        type: boolean
+        default: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci --omit=dev
+      - name: Send
+        run: node scripts/morning.mjs ${{ inputs.force && '--force' || '' }}
+        env:
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          PUSH_SUBSCRIBERS: ${{ secrets.PUSH_SUBSCRIBERS }}

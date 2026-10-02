@@ -1,7 +1,7 @@
 // Offline support: the app shell is cached; timetable data is fetched fresh when
 // online and falls back to the last copy when not (e.g. in a basement lecture hall).
-const CACHE = 'orar-v1';
-const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icon.svg', 'icon-180.png', 'icon-512.png'];
+const CACHE = 'orar-v2';
+const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'core.js', 'manifest.webmanifest', 'icon.svg', 'icon-180.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -25,4 +25,19 @@ self.addEventListener('fetch', e => {
       })
       .catch(() => caches.match(e.request, { ignoreSearch: true })),
   );
+});
+
+// Morning summary sent by .github/workflows/morning.yml
+self.addEventListener('push', e => {
+  let msg = { title: 'Orar', body: '' };
+  try { msg = e.data.json(); } catch { if (e.data) msg.body = e.data.text(); }
+  e.waitUntil(self.registration.showNotification(msg.title, { body: msg.body, icon: 'icon-180.png', tag: msg.tag || 'orar', data: { url: msg.url || './' } }));
+});
+
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  e.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true }).then(list => {
+    const open = list.find(c => c.url.startsWith(self.registration.scope));
+    return open ? open.focus() : self.clients.openWindow(e.notification.data?.url || './');
+  }));
 });

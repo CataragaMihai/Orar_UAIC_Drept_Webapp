@@ -1,0 +1,9 @@
+{
+  "name": "orar",
+  "private": true,
+  "type": "module",
+  "description": "Timetable web app built from UAIC Faculty of Law eOra pages",
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}
