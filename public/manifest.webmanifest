@@ -1,0 +1,16 @@
+{
+  "name": "Orar",
+  "short_name": "Orar",
+  "description": "Orarul tău, pe zile, cu săptămâni pare/impare deja calculate.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f4f0",
+  "theme_color": "#f6f4f0",
+  "lang": "ro",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

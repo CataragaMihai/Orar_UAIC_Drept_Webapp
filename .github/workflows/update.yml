@@ -1,0 +1,44 @@
+name: Update timetable
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'   # every 3 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Scrape
+        run: node scripts/scrape.mjs
+      - name: Commit new data
+        run: |
+          git add public/data
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git -c user.name="orar-bot" -c user.email="orar-bot@users.noreply.github.com" \
+            commit -m "Update timetable data"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deploy
+        uses: actions/deploy-pages@v4

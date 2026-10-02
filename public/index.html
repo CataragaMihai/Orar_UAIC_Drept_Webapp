@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Orar</title>
+<meta name="description" content="Orarul tău, pe zile, cu săptămâni pare/impare deja calculate.">
+<meta name="theme-color" content="#f6f4f0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16161a" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Orar">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-row">
+    <div>
+      <h1 id="week-label">Orar</h1>
+      <p id="week-sub" class="muted"></p>
+    </div>
+    <button id="group-btn" class="chip" type="button" aria-label="Schimbă grupa">—</button>
+  </div>
+  <nav class="week-nav" aria-label="Zilele săptămânii">
+    <button id="prev-week" class="icon-btn" type="button" aria-label="Săptămâna anterioară">‹</button>
+    <div id="days" class="days"></div>
+    <button id="next-week" class="icon-btn" type="button" aria-label="Săptămâna următoare">›</button>
+  </nav>
+</header>
+
+<main>
+  <div id="banner"></div>
+  <h2 id="day-title" class="day-title"></h2>
+  <ol id="lessons" class="lessons"></ol>
+  <section id="changes" class="changes" hidden></section>
+</main>
+
+<footer class="foot">
+  <button id="ics-btn" class="link-btn" type="button">Adaugă în calendarul telefonului</button>
+  <button id="electives-btn" class="link-btn" type="button" hidden>Opționale</button>
+  <p id="updated" class="muted small"></p>
+</footer>
+
+<dialog id="sheet" class="sheet">
+  <form method="dialog" class="sheet-inner">
+    <div class="sheet-head">
+      <h2 id="sheet-title"></h2>
+      <button class="icon-btn" value="close" aria-label="Închide">✕</button>
+    </div>
+    <div id="sheet-body"></div>
+  </form>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

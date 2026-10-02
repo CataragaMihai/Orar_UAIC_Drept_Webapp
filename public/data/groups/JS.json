@@ -1,0 +1,111 @@
+{
+ "id": "JS",
+ "title": "Studii de masterat, Jurisdicţii speciale",
+ "weekly": [
+  {
+   "day": 1,
+   "start": "16:00",
+   "end": "18:00",
+   "subject": "Contencios administrativ și contravențional",
+   "type": "Curs",
+   "teacher": "Conf. dr. Dan Constantin MÂŢĂ",
+   "room": "Amfiteatrul III.9",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 1,
+   "start": "18:00",
+   "end": "20:00",
+   "subject": "Contencios administrativ și contravențional",
+   "type": "Seminar",
+   "teacher": "Conf. dr. Dan Constantin MÂŢĂ",
+   "room": "Amfiteatrul III.9",
+   "building": "Corpul A",
+   "freq": "even",
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 1,
+   "start": "18:00",
+   "end": "20:00",
+   "subject": "Litigii privind raporturi de familie și minori",
+   "type": "Seminar",
+   "teacher": "Prof. dr. Lucia IRINESCU",
+   "room": "Amfiteatrul II6",
+   "building": "Corpul A",
+   "freq": "odd",
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 2,
+   "start": "16:00",
+   "end": "18:00",
+   "subject": "Contencios financiar și fiscal",
+   "type": "Curs",
+   "teacher": "Prof. dr. Ioana Maria COSTEA",
+   "room": "Amfiteatrul II6",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 2,
+   "start": "18:00",
+   "end": "20:00",
+   "subject": "Litigii privind raporturi de familie și minori",
+   "type": "Curs",
+   "teacher": "Prof. dr. Lucia IRINESCU",
+   "room": "S3",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 3,
+   "start": "18:00",
+   "end": "20:00",
+   "subject": "Contencios financiar și fiscal",
+   "type": "Seminar",
+   "teacher": "Prof. dr. Ioana Maria COSTEA",
+   "room": "Amfiteatrul III.9",
+   "building": "Corpul A",
+   "freq": "odd",
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 4,
+   "start": "16:00",
+   "end": "18:00",
+   "subject": "Controlul jurisdicțional în dreptul Uniunii Europene",
+   "type": "Curs",
+   "teacher": "Lect. dr. Emanoil Corneliu MOGÎRZAN",
+   "room": "S6",
+   "building": "Corpul A",
+   "freq": "odd",
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 4,
+   "start": "18:00",
+   "end": "20:00",
+   "subject": "Controlul jurisdicțional în dreptul Uniunii Europene",
+   "type": "Seminar",
+   "teacher": "Lect. dr. Emanoil Corneliu MOGÎRZAN",
+   "room": "S6",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  }
+ ],
+ "unique": []
+}

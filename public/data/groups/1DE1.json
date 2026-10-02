@@ -1,0 +1,111 @@
+{
+ "id": "1DE1",
+ "title": "Studii de masterat, Drept European, 1DE1",
+ "weekly": [
+  {
+   "day": 1,
+   "start": "16:00",
+   "end": "18:00",
+   "subject": "Drept constituțional european",
+   "type": "Curs",
+   "teacher": "Conf. dr. Marius Nicolae BALAN",
+   "room": "Amfiteatrul P10",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 1,
+   "start": "18:00",
+   "end": "20:00",
+   "subject": "Drept constituțional european",
+   "type": "Seminar",
+   "teacher": "Conf. dr. Marius Nicolae BALAN",
+   "room": "Amfiteatrul P10",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 2,
+   "start": "16:00",
+   "end": "18:00",
+   "subject": "Dreptul Uniunii Europene. Instituții, ordine juridică",
+   "type": "Curs",
+   "teacher": "Lect. dr. Emanoil Corneliu MOGÎRZAN",
+   "room": "Amfiteatrul III.9",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 2,
+   "start": "18:00",
+   "end": "20:00",
+   "subject": "Dreptul Uniunii Europene. Instituții, ordine juridică",
+   "type": "Seminar",
+   "teacher": "Lect. dr. Emanoil Corneliu MOGÎRZAN",
+   "room": "Amfiteatrul III.9",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 3,
+   "start": "16:00",
+   "end": "18:00",
+   "subject": "Fiscalitate europeană",
+   "type": "Curs",
+   "teacher": "Prof. dr. Ioana Maria COSTEA",
+   "room": "Amfiteatrul III.9",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 3,
+   "start": "18:00",
+   "end": "20:00",
+   "subject": "Fiscalitate europeană",
+   "type": "Seminar",
+   "teacher": "Lect. dr. Despina Martha ILUCĂ",
+   "room": "Amfiteatrul II6",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 4,
+   "start": "16:00",
+   "end": "17:00",
+   "subject": "Construcția europeană și politicile U.E.",
+   "type": "Curs",
+   "teacher": "Prof. dr. Cătălin TURLIUC",
+   "room": "S5",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 4,
+   "start": "17:00",
+   "end": "20:00",
+   "subject": "Construcția europeană și politicile U.E.",
+   "type": "Seminar",
+   "teacher": "Prof. dr. Cătălin TURLIUC",
+   "room": "S5",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  }
+ ],
+ "unique": []
+}

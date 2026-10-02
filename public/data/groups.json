@@ -1,0 +1,613 @@
+[
+ {
+  "id": "CJ",
+  "name": "Carieră Judiciară",
+  "path": [
+   "Studii de masterat"
+  ],
+  "title": "Studii de masterat, Carieră Judiciară",
+  "count": 10
+ },
+ {
+  "id": "CR",
+  "name": "Criminalistică",
+  "path": [
+   "Studii de masterat"
+  ],
+  "title": "Studii de masterat, Criminalistică",
+  "count": 9
+ },
+ {
+  "id": "DA",
+  "name": "Dreptul Afacerilor",
+  "path": [
+   "Studii de masterat"
+  ],
+  "title": "Studii de masterat, Dreptul Afacerilor",
+  "count": 16
+ },
+ {
+  "id": "1DE1",
+  "name": "1DE1",
+  "path": [
+   "Studii de masterat",
+   "Drept European"
+  ],
+  "title": "Studii de masterat, Drept European, 1DE1",
+  "count": 8
+ },
+ {
+  "id": "1DE2",
+  "name": "1DE2",
+  "path": [
+   "Studii de masterat",
+   "Drept European"
+  ],
+  "title": "Studii de masterat, Drept European, 1DE2",
+  "count": 17
+ },
+ {
+  "id": "JS",
+  "name": "Jurisdicţii speciale",
+  "path": [
+   "Studii de masterat"
+  ],
+  "title": "Studii de masterat, Jurisdicţii speciale",
+  "count": 8
+ },
+ {
+  "id": "SP",
+  "name": "Stiințe Penale",
+  "path": [
+   "Studii de masterat"
+  ],
+  "title": "Studii de masterat, Stiințe Penale",
+  "count": 10
+ },
+ {
+  "id": "IFAnI",
+  "name": "Anul I IF",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF",
+  "count": 99
+ },
+ {
+  "id": "1A1",
+  "name": "1A1",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A1",
+  "count": 24
+ },
+ {
+  "id": "1A10",
+  "name": "1A10",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A10",
+  "count": 24
+ },
+ {
+  "id": "1A11",
+  "name": "1A11",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A11",
+  "count": 24
+ },
+ {
+  "id": "1A12",
+  "name": "1A12",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A12",
+  "count": 24
+ },
+ {
+  "id": "1A2",
+  "name": "1A2",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A2",
+  "count": 24
+ },
+ {
+  "id": "1A3",
+  "name": "1A3",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A3",
+  "count": 24
+ },
+ {
+  "id": "1A4",
+  "name": "1A4",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A4",
+  "count": 24
+ },
+ {
+  "id": "1A5",
+  "name": "1A5",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A5",
+  "count": 24
+ },
+ {
+  "id": "1A6",
+  "name": "1A6",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A6",
+  "count": 24
+ },
+ {
+  "id": "1A7",
+  "name": "1A7",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A7",
+  "count": 24
+ },
+ {
+  "id": "1A8",
+  "name": "1A8",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A8",
+  "count": 24
+ },
+ {
+  "id": "1A9",
+  "name": "1A9",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul I IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul I IF, 1A9",
+  "count": 24
+ },
+ {
+  "id": "IFAnII",
+  "name": "Anul II IF",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF",
+  "count": 98
+ },
+ {
+  "id": "2A1",
+  "name": "2A1",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A1",
+  "count": 24
+ },
+ {
+  "id": "2A10",
+  "name": "2A10",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A10",
+  "count": 24
+ },
+ {
+  "id": "2A11",
+  "name": "2A11",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A11",
+  "count": 24
+ },
+ {
+  "id": "2A12",
+  "name": "2A12",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A12",
+  "count": 24
+ },
+ {
+  "id": "2A2",
+  "name": "2A2",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A2",
+  "count": 24
+ },
+ {
+  "id": "2A3",
+  "name": "2A3",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A3",
+  "count": 24
+ },
+ {
+  "id": "2A4",
+  "name": "2A4",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A4",
+  "count": 24
+ },
+ {
+  "id": "2A5",
+  "name": "2A5",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A5",
+  "count": 24
+ },
+ {
+  "id": "2A6",
+  "name": "2A6",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A6",
+  "count": 24
+ },
+ {
+  "id": "2A7",
+  "name": "2A7",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A7",
+  "count": 24
+ },
+ {
+  "id": "2A8",
+  "name": "2A8",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A8",
+  "count": 24
+ },
+ {
+  "id": "2A9",
+  "name": "2A9",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul II IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul II IF, 2A9",
+  "count": 24
+ },
+ {
+  "id": "IFAnIII",
+  "name": "Anul III IF",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF",
+  "count": 82
+ },
+ {
+  "id": "3A1",
+  "name": "3A1",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A1",
+  "count": 18
+ },
+ {
+  "id": "3A10",
+  "name": "3A10",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A10",
+  "count": 18
+ },
+ {
+  "id": "3A11",
+  "name": "3A11",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A11",
+  "count": 18
+ },
+ {
+  "id": "3A12",
+  "name": "3A12",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A12",
+  "count": 18
+ },
+ {
+  "id": "3A2",
+  "name": "3A2",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A2",
+  "count": 18
+ },
+ {
+  "id": "3A3",
+  "name": "3A3",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A3",
+  "count": 18
+ },
+ {
+  "id": "3A4",
+  "name": "3A4",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A4",
+  "count": 18
+ },
+ {
+  "id": "3A5",
+  "name": "3A5",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A5",
+  "count": 18
+ },
+ {
+  "id": "3A6",
+  "name": "3A6",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A6",
+  "count": 18
+ },
+ {
+  "id": "3A7",
+  "name": "3A7",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A7",
+  "count": 18
+ },
+ {
+  "id": "3A8",
+  "name": "3A8",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A8",
+  "count": 18
+ },
+ {
+  "id": "3A9",
+  "name": "3A9",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul III IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul III IF, 3A9",
+  "count": 18
+ },
+ {
+  "id": "IFAnIV",
+  "name": "Anul IV IF",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF",
+  "count": 56
+ },
+ {
+  "id": "4A1",
+  "name": "4A1",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A1",
+  "count": 13
+ },
+ {
+  "id": "4A10",
+  "name": "4A10",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A10",
+  "count": 13
+ },
+ {
+  "id": "4A2",
+  "name": "4A2",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A2",
+  "count": 13
+ },
+ {
+  "id": "4A3",
+  "name": "4A3",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A3",
+  "count": 13
+ },
+ {
+  "id": "4A4",
+  "name": "4A4",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A4",
+  "count": 13
+ },
+ {
+  "id": "4A5",
+  "name": "4A5",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A5",
+  "count": 13
+ },
+ {
+  "id": "4A6",
+  "name": "4A6",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A6",
+  "count": 13
+ },
+ {
+  "id": "4A7",
+  "name": "4A7",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A7",
+  "count": 13
+ },
+ {
+  "id": "4A8",
+  "name": "4A8",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A8",
+  "count": 13
+ },
+ {
+  "id": "4A9",
+  "name": "4A9",
+  "path": [
+   "Studii de licenţă",
+   "Învăţământ cu frecvenţă",
+   "Anul IV IF"
+  ],
+  "title": "Studii de licenţă, Învăţământ cu frecvenţă, Anul IV IF, 4A9",
+  "count": 13
+ }
+]
