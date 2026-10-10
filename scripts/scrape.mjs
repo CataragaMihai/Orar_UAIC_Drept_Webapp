@@ -15,15 +15,37 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const BASE = (process.env.EORA_BASE || 'https://laws.uaic.ro/os1v42627').replace(/\/$/, '');
+// The faculty republishes eOra under a new path each time (os1v42627 → os1v62627 …),
+// so unless EORA_BASE is set, the current one is looked up from its timetable page.
+const SITE = 'https://laws.uaic.ro';
+const LAST_KNOWN_BASE = `${SITE}/os1v62627`;
+let BASE = process.env.EORA_BASE?.replace(/\/$/, '');
 const OUT = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', 'data');
 const FORCE = process.argv.includes('--force');
 const DELAY_MS = 400; // be polite: one request at a time, with a pause between them
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-async function get(rel) {
-  const url = `${BASE}/${rel.split('/').map(encodeURIComponent).join('/')}`;
+const get = rel => fetchText(`${BASE}/${rel.split('/').map(encodeURIComponent).join('/')}`);
+
+async function findBase() {
+  try {
+    const list = await fetchText(`${SITE}/studenti/orar`);
+    // The full-time ("IF") article for the current semester carries the eOra link.
+    const article = (list.match(/href="(\/studenti\/orar\/\d+-if-orar-[^"]*)"/) || [])[1];
+    if (article) {
+      await sleep(DELAY_MS);
+      const os = ((await fetchText(SITE + article)).match(/href="(?:https?:\/\/laws\.uaic\.ro)?\/(os[a-z0-9]+)\/?"/) || [])[1];
+      if (os) return `${SITE}/${os}`;
+    }
+    console.warn('scrape: eOra link not found on the faculty site; using the last known one');
+  } catch (err) {
+    console.warn(`scrape: could not look up the eOra link (${err.message}); using the last known one`);
+  }
+  return LAST_KNOWN_BASE;
+}
+
+async function fetchText(url) {
   for (let attempt = 1; ; attempt++) {
     try {
       const res = await fetch(url, {
@@ -194,12 +216,13 @@ function writeJSON(rel, data) {
 }
 
 async function main() {
+  BASE ??= await findBase();
   // The groups page carries the publish stamp, so it doubles as the "anything new?" check.
   const studentsHtml = await get('orar_studenti.html');
   const stamp = published(studentsHtml);
   let old = null;
   try { old = JSON.parse(fs.readFileSync(path.join(OUT, 'meta.json'), 'utf8')); } catch {}
-  if (!FORCE && old && stamp && old.published === stamp) {
+  if (!FORCE && old && stamp && old.published === stamp && old.source === BASE) {
     console.log(`Unchanged since ${stamp}; nothing to do.`);
     return;
   }

@@ -147,6 +147,19 @@
   },
   {
    "day": 3,
+   "start": "10:00",
+   "end": "12:00",
+   "subject": "Engleză juridică 1",
+   "type": "Seminar",
+   "teacher": "Spec. dr. Vasilica MLEŞNIŢĂ",
+   "room": "Amfiteatrul P10",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": "2",
+   "weeks": null
+  },
+  {
+   "day": 3,
    "start": "12:00",
    "end": "14:00",
    "subject": "Teoria generală a dreptului",
@@ -286,19 +299,6 @@
    "building": "Corpul A",
    "freq": null,
    "pkg": null,
-   "weeks": null
-  },
-  {
-   "day": 5,
-   "start": "18:00",
-   "end": "20:00",
-   "subject": "Engleză juridică 1",
-   "type": "Seminar",
-   "teacher": "Spec. dr. Vasilica MLEŞNIŢĂ",
-   "room": "S4",
-   "building": "Corpul B",
-   "freq": null,
-   "pkg": "2",
    "weeks": null
   },
   {

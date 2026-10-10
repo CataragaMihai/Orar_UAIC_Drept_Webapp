@@ -1,7 +1,7 @@
 # Orar
 
 A phone-friendly timetable for UAIC Faculty of Law students, built from the
-faculty's public eOra pages (https://laws.uaic.ro/os1v42627/).
+faculty's public eOra pages (https://laws.uaic.ro/os1v62627/).
 
 - `scripts/scrape.mjs` downloads the group pages, calendar and change log into
   `public/data/`. It skips the download when the faculty hasn't republished.

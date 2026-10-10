@@ -462,7 +462,7 @@
    "freq": null,
    "pkg": "2",
    "weeks": null,
-   "subgroup": "1A2 , 1A3 , 1A4"
+   "subgroup": "1A2 , 1A3 , 1A4 , 1A9"
   },
   {
    "day": 3,
@@ -1316,7 +1316,7 @@
    "freq": null,
    "pkg": "2",
    "weeks": null,
-   "subgroup": "1A5 , 1A8 , 1A9"
+   "subgroup": "1A5 , 1A8"
   },
   {
    "day": 5,
