@@ -59,11 +59,11 @@
    "start": "18:00",
    "end": "20:00",
    "subject": "Probleme speciale privind contractele civile",
-   "type": "Curs",
+   "type": "Seminar",
    "teacher": "Lect. dr. Mirela Carmen DOBRILĂ",
    "room": "S3",
    "building": "Corpul A",
-   "freq": null,
+   "freq": "odd",
    "pkg": null,
    "weeks": null
   },
@@ -111,11 +111,11 @@
    "start": "12:00",
    "end": "14:00",
    "subject": "Probleme speciale privind contractele civile",
-   "type": "Seminar",
+   "type": "Curs",
    "teacher": "Lect. dr. Mirela Carmen DOBRILĂ",
    "room": "S3",
    "building": "Corpul A",
-   "freq": "odd",
+   "freq": null,
    "pkg": null,
    "weeks": null
   }

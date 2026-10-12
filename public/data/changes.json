@@ -1,20 +1,479 @@
 [
  {
-  "at": "2026-10-08T00:00",
-  "subject": "Drept procesual civil I",
+  "at": "2026-10-12T00:00",
+  "subject": "Probleme speciale privind contractele civile",
   "groups": [
-   "IFAnIV"
+   "DA"
   ],
-  "teacher": "Conf. dr. Nicolae-Horia ŢIŢ",
-  "text": "mutare curs de vineri 12:00 - 14:00, miercuri 10:00 - 12:00 în AmfI1"
+  "teacher": "Lect. dr. Mirela Carmen DOBRILĂ",
+  "text": "mutare seminar de sâmbătă 14:00 - 16:00, miercuri 18:00 - 20:00 în S3"
  },
  {
-  "at": "2026-10-08T00:00",
-  "subject": "Drept procesual civil I",
+  "at": "2026-10-12T00:00",
+  "subject": "Probleme speciale privind contractele civile",
   "groups": [
-   "IFAnIV"
+   "DA"
   ],
-  "teacher": "Conf. dr. Nicolae-Horia ŢIŢ",
-  "text": "mutare curs de miercuri 10:00 - 12:00, vineri 12:00 - 14:00 în AmfI1"
+  "teacher": "Lect. dr. Mirela Carmen DOBRILĂ",
+  "text": "mutare curs de miercuri 18:00 - 20:00, sâmbătă 12:00 - 14:00 în S3"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Probleme speciale privind contractele civile",
+  "groups": [
+   "DA"
+  ],
+  "teacher": "Lect. dr. Mirela Carmen DOBRILĂ",
+  "text": "mutare seminar de sâmbătă 12:00 - 14:00, sâmbătă 14:00 - 16:00 în S3"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "groups": [
+   "1A3"
+  ],
+  "teacher": "Asist. drd. Robert DAMASCHIN",
+  "text": "mutare seminar de joi 14:00 - 16:00 in AmfII6 - Amfiteatrul II6"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "groups": [
+   "1A3"
+  ],
+  "teacher": "Asist. drd. Robert DAMASCHIN",
+  "text": "eliberare AmfII6 - Amfiteatrul II6 joi 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de joi 08:00 - 10:00 in S4"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de joi 16:00 - 18:00, joi 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "eliberare S2 joi 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de miercuri 10:00 - 12:00, joi 16:00 - 18:00 în S2"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de miercuri 11:00 - 13:00, miercuri 10:00 - 12:00 în S2"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de joi 16:00 - 18:00, miercuri 11:00 - 13:00 în S2"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "eliberare S8 miercuri 09.12.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "suplimentare seminar de miercuri 09.12.2026 14:00 - 16:00 cu S1VPella - S1(V.Pella)"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de miercuri 09.12.2026 14:00 - 16:00 in S8"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar miercuri 09.12.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de marți 08.12.2026 18:00 - 20:00 in S1VPella - S1(V.Pella)"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar marți 08.12.2026 18:00 - 20:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de marți 08.12.2026 17:00 - 19:00, marți 08.12.2026 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar marți 08.12.2026 17:00 - 19:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "eliberare S8 marți 08.12.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "suplimentare seminar de marți 08.12.2026 14:00 - 16:00 cu S1VPella - S1(V.Pella)"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de marți 08.12.2026 14:00 - 16:00 in S8"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar marți 08.12.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de luni 07.12.2026 18:00 - 20:00 in S8"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar luni 07.12.2026 18:00 - 20:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare curs de luni 07.12.2026 16:00 - 18:00 in S8"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare curs luni 07.12.2026 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "eliberare S7 luni 07.12.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "suplimentare curs de luni 07.12.2026 14:00 - 16:00 cu S1VPella - S1(V.Pella)"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare curs de luni 07.12.2026 14:00 - 16:00 in S7"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare curs luni 07.12.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de marți 17.11.2026 18:00 - 20:00 in S1VPella - S1(V.Pella)"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar marți 17.11.2026 18:00 - 20:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare curs marți 17.11.2026 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare curs de marți 17.11.2026 14:00 - 16:00 in S1VPella - S1(V.Pella)"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare curs marți 17.11.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de luni 16.11.2026 18:00 - 20:00 in S8"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar luni 16.11.2026 18:00 - 20:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare curs de luni 16.11.2026 16:00 - 18:00 in S8"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare curs luni 16.11.2026 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare curs de luni 16.11.2026 14:00 - 16:00 in S1VPella - S1(V.Pella)"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare curs luni 16.11.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de vineri 13.11.2026 18:00 - 20:00 in AmfME - Amfiteatrul M.E."
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar vineri 13.11.2026 18:00 - 20:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare seminar de joi 12.11.2026 16:00 - 18:00 in S3"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare seminar joi 12.11.2026 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare curs de joi 12.11.2026 14:00 - 16:00 in S1VPella - S1(V.Pella)"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare curs joi 12.11.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "mutare curs de miercuri 11.11.2026 14:00 - 16:00 in AmfIII9 - Amfiteatrul III.9"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "groups": [
+   "1DE2"
+  ],
+  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
+  "text": "adăugare curs miercuri 11.11.2026 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de joi 16:00 - 18:00 in S2"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de joi 08:00 - 10:00, joi 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-12T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "eliberare S4 joi 08:00 - 10:00"
  }
 ]
