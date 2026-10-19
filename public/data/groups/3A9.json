@@ -56,6 +56,19 @@
   },
   {
    "day": 3,
+   "start": "08:00",
+   "end": "10:00",
+   "subject": "Drept civil. Principalele contracte",
+   "type": "Seminar",
+   "teacher": "Asist. dr. Sorin MODREANU",
+   "room": "S2",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 3,
    "start": "10:00",
    "end": "12:00",
    "subject": "Drept procesual penal - partea generală",
@@ -78,19 +91,6 @@
    "building": "Corpul A",
    "freq": "even",
    "pkg": "8",
-   "weeks": null
-  },
-  {
-   "day": 3,
-   "start": "16:00",
-   "end": "18:00",
-   "subject": "Drept civil. Principalele contracte",
-   "type": "Seminar",
-   "teacher": "Asist. dr. Sorin MODREANU",
-   "room": "S2",
-   "building": "Corpul A",
-   "freq": null,
-   "pkg": null,
    "weeks": null
   },
   {

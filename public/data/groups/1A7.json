@@ -160,19 +160,6 @@
   },
   {
    "day": 4,
-   "start": "08:00",
-   "end": "10:00",
-   "subject": "Teoria generală a dreptului",
-   "type": "Seminar",
-   "teacher": "Asist. drd. Laura POSTOLACHE",
-   "room": "S4",
-   "building": "Corpul B",
-   "freq": null,
-   "pkg": null,
-   "weeks": null
-  },
-  {
-   "day": 4,
    "start": "10:00",
    "end": "12:00",
    "subject": "Sociologie juridică",
@@ -234,6 +221,19 @@
    "building": "Corpul A",
    "freq": null,
    "pkg": "2",
+   "weeks": null
+  },
+  {
+   "day": 4,
+   "start": "16:00",
+   "end": "18:00",
+   "subject": "Teoria generală a dreptului",
+   "type": "Seminar",
+   "teacher": "Asist. drd. Laura POSTOLACHE",
+   "room": "S3",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
    "weeks": null
   },
   {

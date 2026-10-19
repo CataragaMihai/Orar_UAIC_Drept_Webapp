@@ -48,6 +48,20 @@
    "day": 1,
    "start": "12:00",
    "end": "14:00",
+   "subject": "Drept procesual penal - partea generală",
+   "type": "Seminar",
+   "teacher": "Dr. Codrin SÎRCU",
+   "room": "Amfiteatrul III.9",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null,
+   "subgroup": "3A6"
+  },
+  {
+   "day": 1,
+   "start": "12:00",
+   "end": "14:00",
    "subject": "Dreptul familiei",
    "type": "Seminar",
    "teacher": "Asist. dr. Ana-Maria GOLDAN",
@@ -85,20 +99,6 @@
    "pkg": null,
    "weeks": null,
    "subgroup": "3A2"
-  },
-  {
-   "day": 1,
-   "start": "14:00",
-   "end": "16:00",
-   "subject": "Drept procesual penal - partea generală",
-   "type": "Seminar",
-   "teacher": "Dr. Codrin SÎRCU",
-   "room": "Amfiteatrul III.9",
-   "building": "Corpul A",
-   "freq": null,
-   "pkg": null,
-   "weeks": null,
-   "subgroup": "3A6"
   },
   {
    "day": 1,
@@ -323,6 +323,20 @@
    "pkg": "8",
    "weeks": null,
    "subgroup": "3A12 , 3A3"
+  },
+  {
+   "day": 3,
+   "start": "08:00",
+   "end": "10:00",
+   "subject": "Drept civil. Principalele contracte",
+   "type": "Seminar",
+   "teacher": "Asist. dr. Sorin MODREANU",
+   "room": "S2",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null,
+   "subgroup": "3A9"
   },
   {
    "day": 3,
@@ -596,13 +610,13 @@
    "end": "18:00",
    "subject": "Drept civil. Principalele contracte",
    "type": "Seminar",
-   "teacher": "Lect. dr. Mirela Carmen DOBRILĂ",
-   "room": "S3",
+   "teacher": "Asist. dr. Sorin MODREANU",
+   "room": "S2",
    "building": "Corpul A",
    "freq": null,
    "pkg": null,
    "weeks": null,
-   "subgroup": "3A4"
+   "subgroup": "3A12"
   },
   {
    "day": 3,
@@ -610,13 +624,13 @@
    "end": "18:00",
    "subject": "Drept civil. Principalele contracte",
    "type": "Seminar",
-   "teacher": "Asist. dr. Sorin MODREANU",
-   "room": "S2",
+   "teacher": "Lect. dr. Mirela Carmen DOBRILĂ",
+   "room": "S3",
    "building": "Corpul A",
    "freq": null,
    "pkg": null,
    "weeks": null,
-   "subgroup": "3A9"
+   "subgroup": "3A4"
   },
   {
    "day": 3,
@@ -645,20 +659,6 @@
    "pkg": null,
    "weeks": null,
    "subgroup": "3A6"
-  },
-  {
-   "day": 3,
-   "start": "18:00",
-   "end": "20:00",
-   "subject": "Drept civil. Principalele contracte",
-   "type": "Seminar",
-   "teacher": "Asist. dr. Sorin MODREANU",
-   "room": "S2",
-   "building": "Corpul A",
-   "freq": null,
-   "pkg": null,
-   "weeks": null,
-   "subgroup": "3A12"
   },
   {
    "day": 3,
@@ -863,7 +863,7 @@
    "subject": "Dreptul familiei",
    "type": "Seminar",
    "teacher": "Asist. dr. Ana-Maria GOLDAN",
-   "room": "S8",
+   "room": "S7",
    "building": "Corpul A",
    "freq": null,
    "pkg": null,
