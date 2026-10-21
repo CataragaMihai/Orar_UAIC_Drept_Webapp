@@ -1,33 +1,64 @@
 [
  {
-  "at": "2026-10-19T00:00",
-  "subject": "Dreptul familiei",
+  "at": "2026-10-21T00:00",
+  "subject": "Teoria generală a dreptului",
   "groups": [
-   "3A1"
+   "1A7"
   ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "mutare seminar de joi 14:00 - 16:00 in S7"
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de joi 16:00 - 18:00 in S4"
  },
  {
-  "at": "2026-10-19T00:00",
-  "subject": "Dreptul familiei",
+  "at": "2026-10-21T00:00",
+  "subject": "Germană juridică 1",
   "groups": [
-   "3A1"
+   "1A3",
+   "1A8",
+   "1A9"
   ],
   "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare S8 joi 14:00 - 16:00"
+  "text": "eliberare S4 joi 16:00 - 18:00"
  },
  {
-  "at": "2026-10-19T00:00",
+  "at": "2026-10-21T00:00",
+  "subject": "Germană juridică 1",
+  "groups": [
+   "1A3",
+   "1A8",
+   "1A9"
+  ],
+  "teacher": "Asist. dr. Ana-Maria GOLDAN",
+  "text": "suplimentare seminar de joi 16:00 - 18:00 cu S3"
+ },
+ {
+  "at": "2026-10-21T00:00",
   "subject": "Drept european general",
   "groups": [
    "1A10"
   ],
   "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "mutare seminar de joi 10:00 - 12:00 in S1VPella - S1(V.Pella)"
+  "text": "mutare seminar de joi 10:00 - 12:00 in CSEI2 - CSE i.2"
  },
  {
-  "at": "2026-10-19T00:00",
+  "at": "2026-10-21T00:00",
+  "subject": "Drept european general",
+  "groups": [
+   "1A10"
+  ],
+  "teacher": "Asist. dr. Ana-Maria GOLDAN",
+  "text": "eliberare CSEI1 - CSE i.1 joi 10:00 - 12:00"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Drept european general",
+  "groups": [
+   "1A10"
+  ],
+  "teacher": "Asist. dr. Ana-Maria GOLDAN",
+  "text": "mutare seminar de joi 10:00 - 12:00 in CSEI1 - CSE i.1"
+ },
+ {
+  "at": "2026-10-21T00:00",
   "subject": "Drept european general",
   "groups": [
    "1A10"
@@ -36,34 +67,97 @@
   "text": "eliberare S6 joi 10:00 - 12:00"
  },
  {
-  "at": "2026-10-19T00:00",
+  "at": "2026-10-21T00:00",
+  "subject": "Teoria generală a dreptului",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "eliberare S3 joi 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "groups": [
+   "1A8"
+  ],
+  "teacher": "Asist. drd. Robert DAMASCHIN",
+  "text": "mutare seminar de joi 14:00 - 16:00 in S7"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Dreptul familiei",
+  "groups": [
+   "3A1"
+  ],
+  "teacher": "Asist. dr. Ana-Maria GOLDAN",
+  "text": "mutare seminar de joi 14:00 - 16:00 in CSEI2 - CSE i.2"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Dreptul familiei",
+  "groups": [
+   "3A1"
+  ],
+  "teacher": "Asist. dr. Ana-Maria GOLDAN",
+  "text": "eliberare S7 joi 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "groups": [
+   "1A8"
+  ],
+  "teacher": "Asist. drd. Robert DAMASCHIN",
+  "text": "eliberare CSEI2 - CSE i.2 joi 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Drept european general",
+  "groups": [
+   "1A9"
+  ],
+  "teacher": "Asist. dr. Ana-Maria GOLDAN",
+  "text": "mutare seminar de joi 12:00 - 14:00 in CSEI2 - CSE i.2"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Robert DAMASCHIN",
+  "text": "mutare seminar de joi 12:00 - 14:00 in S7"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "groups": [
+   "1A7"
+  ],
+  "teacher": "Asist. drd. Robert DAMASCHIN",
+  "text": "eliberare CSEI2 - CSE i.2 joi 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-21T00:00",
+  "subject": "Drept european general",
+  "groups": [
+   "1A9"
+  ],
+  "teacher": "Asist. dr. Ana-Maria GOLDAN",
+  "text": "eliberare S1VPella - S1(V.Pella) joi 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-21T00:00",
   "subject": "Drept european general",
   "groups": [
    "1A10"
   ],
   "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare S8 joi 10:00 - 12:00"
+  "text": "eliberare S1VPella - S1(V.Pella) joi 10:00 - 12:00"
  },
  {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept european general",
-  "groups": [
-   "1A9"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "mutare seminar de joi 12:00 - 14:00 in S1VPella - S1(V.Pella)"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept european general",
-  "groups": [
-   "1A9"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare S8 joi 12:00 - 14:00"
- },
- {
-  "at": "2026-10-19T00:00",
+  "at": "2026-10-21T00:00",
   "subject": "Drept european general",
   "groups": [
    "1A10"
@@ -72,356 +166,43 @@
   "text": "suplimentare seminar de joi 10:00 - 12:00 cu S6"
  },
  {
-  "at": "2026-10-19T00:00",
-  "subject": "Teoria generală a dreptului",
+  "at": "2026-10-21T00:00",
+  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
   "groups": [
-   "1A7"
+   "3A11",
+   "3A4"
   ],
-  "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "mutare seminar de joi 16:00 - 18:00 in S3"
+  "teacher": "Drd. Sebastian ANTOCE",
+  "text": "mutare seminar de miercuri 18:00 - 20:00 in S3"
  },
  {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional privat european în raporturile de comerț internațional",
+  "at": "2026-10-21T00:00",
+  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
   "groups": [
-   "1DE2"
+   "3A11",
+   "3A4"
   ],
-  "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
-  "text": "eliberare S3 joi 12.11.2026 16:00 - 18:00"
+  "teacher": "Drd. Sebastian ANTOCE",
+  "text": "eliberare S2 miercuri 18:00 - 20:00"
  },
  {
-  "at": "2026-10-19T00:00",
-  "subject": "Teoria generală a dreptului",
+  "at": "2026-10-21T00:00",
+  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
   "groups": [
-   "1A7"
+   "3A11",
+   "3A4"
   ],
-  "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "mutare seminar de joi 08:00 - 10:00, joi 16:00 - 18:00"
+  "teacher": "Drd. Sebastian ANTOCE",
+  "text": "mutare seminar de miercuri 18:00 - 20:00 in S2"
  },
  {
-  "at": "2026-10-19T00:00",
-  "subject": "Teoria generală a dreptului",
+  "at": "2026-10-21T00:00",
+  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
   "groups": [
-   "1A7"
+   "3A11",
+   "3A4"
   ],
-  "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "eliberare S4 joi 08:00 - 10:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept civil. Drepturi reale",
-  "groups": [
-   "2A2"
-  ],
-  "teacher": "Drd. Miruna CARTAS",
-  "text": "mutare seminar de luni 18:00 - 20:00 in S7"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept administrativ I",
-  "groups": [
-   "2A3"
-  ],
-  "teacher": "Asist. dr. Ioan - Dumitru APACHIȚEI",
-  "text": "mutare seminar de marți 18:00 - 20:00 in S4"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Teoria generală a dreptului",
-  "groups": [
-   "1A2"
-  ],
-  "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "mutare seminar de marți 18:00 - 20:00 in S8"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Teoria generală a dreptului",
-  "groups": [
-   "1A2"
-  ],
-  "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "eliberare S4 marți 18:00 - 20:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept civil. Drepturi reale",
-  "groups": [
-   "2A12"
-  ],
-  "teacher": "Drd. Miruna CARTAS",
-  "text": "mutare seminar de luni 16:00 - 18:00 in S7"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept civil. Drepturi reale",
-  "groups": [
-   "2A12"
-  ],
-  "teacher": "Drd. Miruna CARTAS",
-  "text": "eliberare S7 luni 16:00 - 18:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept civil. Drepturi reale",
-  "groups": [
-   "2A12"
-  ],
-  "teacher": "Drd. Miruna CARTAS",
-  "text": "mutare seminar de luni 16:00 - 18:00 in S7"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Engleză juridică 3",
-  "groups": [
-   "2A4",
-   "2A8",
-   "2A9"
-  ],
-  "teacher": "Spec. dr. Vasilica MLEŞNIŢĂ",
-  "text": "mutare seminar de luni 14:00 - 16:00 in AmfIII9 - Amfiteatrul III.9"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Engleză juridică 3",
-  "groups": [
-   "2A4",
-   "2A8",
-   "2A9"
-  ],
-  "teacher": "Spec. dr. Vasilica MLEŞNIŢĂ",
-  "text": "eliberare S8 luni 14:00 - 16:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Engleză juridică 3",
-  "groups": [
-   "2A1",
-   "2A11",
-   "2A2"
-  ],
-  "teacher": "Spec. dr. Vasilica MLEŞNIŢĂ",
-  "text": "eliberare S7 luni 16:00 - 18:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Engleză juridică 3",
-  "groups": [
-   "2A1",
-   "2A11",
-   "2A2"
-  ],
-  "teacher": "Spec. dr. Vasilica MLEŞNIŢĂ",
-  "text": "suplimentare seminar de luni 16:00 - 18:00 cu AmfME - Amfiteatrul M.E."
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Engleză juridică 3",
-  "groups": [
-   "2A10",
-   "2A3",
-   "2A6"
-  ],
-  "teacher": "Spec. dr. Vasilica MLEŞNIŢĂ",
-  "text": "mutare seminar de luni 18:00 - 20:00 in CSEI1 - CSE i.1"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Engleză juridică 3",
-  "groups": [
-   "2A10",
-   "2A3",
-   "2A6"
-  ],
-  "teacher": "Spec. dr. Vasilica MLEŞNIŢĂ",
-  "text": "eliberare S7 luni 18:00 - 20:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept civil. Drepturi reale",
-  "groups": [
-   "2A2"
-  ],
-  "teacher": "Drd. Miruna CARTAS",
-  "text": "eliberare CSEI1 - CSE i.1 luni 18:00 - 20:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept civil. Drepturi reale",
-  "groups": [
-   "2A12"
-  ],
-  "teacher": "Drd. Miruna CARTAS",
-  "text": "eliberare AmfME - Amfiteatrul M.E. luni 16:00 - 18:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Metode alternative de soluționare a litigiilor",
-  "groups": [
-   "4A1",
-   "4A2"
-  ],
-  "teacher": "Asist. drd. Bogdan TROFIN",
-  "text": "mutare seminar de joi 16:00 - 18:00 in S2"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Metode alternative de soluționare a litigiilor",
-  "groups": [
-   "4A1",
-   "4A2"
-  ],
-  "teacher": "Asist. drd. Bogdan TROFIN",
-  "text": "eliberare S7 joi 16:00 - 18:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Metode alternative de soluționare a litigiilor",
-  "groups": [
-   "4A3",
-   "4A4"
-  ],
-  "teacher": "Asist. drd. Bogdan TROFIN",
-  "text": "mutare seminar de miercuri 16:00 - 18:00 in AmfI1 - Amfiteatrul I.1"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional public",
-  "groups": [
-   "2A6"
-  ],
-  "teacher": "Drd. Maria-Lucia APACHIȚEI",
-  "text": "eliberare AmfI1 - Amfiteatrul I.1 miercuri 16:00 - 18:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional public",
-  "groups": [
-   "2A6"
-  ],
-  "teacher": "Drd. Maria-Lucia APACHIȚEI",
-  "text": "suplimentare seminar de miercuri 16:00 - 18:00 cu S8"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Metode alternative de soluționare a litigiilor",
-  "groups": [
-   "4A3",
-   "4A4"
-  ],
-  "teacher": "Asist. drd. Bogdan TROFIN",
-  "text": "eliberare S8 miercuri 16:00 - 18:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional public",
-  "groups": [
-   "2A9"
-  ],
-  "teacher": "Drd. Maria-Lucia APACHIȚEI",
-  "text": "mutare seminar de joi 08:00 - 10:00 in S6"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional public",
-  "groups": [
-   "2A9"
-  ],
-  "teacher": "Drd. Maria-Lucia APACHIȚEI",
-  "text": "mutare seminar de miercuri 12:00 - 14:00, joi 08:00 - 10:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional public",
-  "groups": [
-   "2A9"
-  ],
-  "teacher": "Drd. Maria-Lucia APACHIȚEI",
-  "text": "mutare seminar de joi 08:00 - 10:00, miercuri 12:00 - 14:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional public",
-  "groups": [
-   "2A9"
-  ],
-  "teacher": "Drd. Maria-Lucia APACHIȚEI",
-  "text": "mutare seminar de miercuri 12:00 - 14:00, joi 08:00 - 10:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional public",
-  "groups": [
-   "2A9"
-  ],
-  "teacher": "Drd. Maria-Lucia APACHIȚEI",
-  "text": "mutare seminar de joi 08:00 - 10:00, miercuri 12:00 - 14:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept internațional public",
-  "groups": [
-   "2A9"
-  ],
-  "teacher": "Drd. Maria-Lucia APACHIȚEI",
-  "text": "eliberare S6 joi 08:00 - 10:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Metode alternative de soluționare a litigiilor",
-  "groups": [
-   "4A10",
-   "4A8",
-   "4A9"
-  ],
-  "teacher": "Asist. drd. Bogdan TROFIN",
-  "text": "mutare seminar de marți 18:00 - 20:00 in AmfP10 - Amfiteatrul P10"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Metode alternative de soluționare a litigiilor",
-  "groups": [
-   "4A10",
-   "4A8",
-   "4A9"
-  ],
-  "teacher": "Asist. drd. Bogdan TROFIN",
-  "text": "eliberare S8 marți 18:00 - 20:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept administrativ I",
-  "groups": [
-   "2A3"
-  ],
-  "teacher": "Asist. dr. Ioan - Dumitru APACHIȚEI",
-  "text": "eliberare AmfP10 - Amfiteatrul P10 marți 18:00 - 20:00"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept civil. Principalele contracte",
-  "groups": [
-   "3A12"
-  ],
-  "teacher": "Asist. dr. Sorin MODREANU",
-  "text": "mutare seminar de miercuri 18:00 - 20:00, miercuri 16:00 - 18:00 în S2"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept civil. Principalele contracte",
-  "groups": [
-   "3A9"
-  ],
-  "teacher": "Asist. dr. Sorin MODREANU",
-  "text": "mutare seminar de miercuri 16:00 - 18:00, miercuri 08:00 - 10:00 în S2"
- },
- {
-  "at": "2026-10-19T00:00",
-  "subject": "Drept procesual penal - partea generală",
-  "groups": [
-   "3A6"
-  ],
-  "teacher": "Dr. Codrin SÎRCU",
-  "text": "mutare seminar de luni 14:00 - 16:00, luni 12:00 - 14:00 în AmfIII9"
+  "teacher": "Drd. Sebastian ANTOCE",
+  "text": "eliberare S8 miercuri 18:00 - 20:00"
  }
 ]
