@@ -12,7 +12,7 @@
    "room": "Amfiteatrul P10",
    "building": "Corpul A",
    "freq": null,
-   "pkg": null,
+   "pkg": "15",
    "weeks": null
   },
   {
@@ -90,7 +90,7 @@
    "room": "Amfiteatrul P10",
    "building": "Corpul A",
    "freq": null,
-   "pkg": null,
+   "pkg": "15",
    "weeks": null
   },
   {
@@ -194,7 +194,7 @@
    "room": "Amfiteatrul II6",
    "building": "Corpul A",
    "freq": "even",
-   "pkg": null,
+   "pkg": "15",
    "weeks": null
   },
   {
@@ -234,6 +234,19 @@
    "building": "CSE",
    "freq": null,
    "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 5,
+   "start": "08:00",
+   "end": "10:00",
+   "subject": "Etică și integritate academică",
+   "type": "Seminar",
+   "teacher": "Conf. dr. Andra IFTIMIEI",
+   "room": "Amfiteatrul I.1",
+   "building": "Corpul A",
+   "freq": "even",
+   "pkg": "15",
    "weeks": null
   },
   {
@@ -286,19 +299,6 @@
    "building": "Corpul A",
    "freq": "even",
    "pkg": "2",
-   "weeks": null
-  },
-  {
-   "day": 5,
-   "start": "16:00",
-   "end": "18:00",
-   "subject": "Etică și integritate academică",
-   "type": "Seminar",
-   "teacher": "Conf. dr. Andra IFTIMIEI",
-   "room": "S2",
-   "building": "Corpul A",
-   "freq": "even",
-   "pkg": null,
    "weeks": null
   },
   {

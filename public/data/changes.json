@@ -1,208 +1,350 @@
 [
  {
-  "at": "2026-10-21T00:00",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A10",
+   "1A9"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare AmfII6 - Amfiteatrul II6 marți 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A5",
+   "1A6"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de joi 08:00 - 10:00 in AmfIII9 - Amfiteatrul III.9"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A10",
+   "1A9"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "suplimentare seminar de marți 08:00 - 10:00 cu AmfIII9 - Amfiteatrul III.9"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A11",
+   "1A12"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de joi 10:00 - 12:00, marți 08:00 - 10:00 în AmfIII9"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A10",
+   "1A9"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de marți 08:00 - 10:00 in AmfII6 - Amfiteatrul II6"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A10",
+   "1A9"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 18:00 - 20:00, marți 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
   "subject": "Teoria generală a dreptului",
   "groups": [
-   "1A7"
+   "1A6"
   ],
   "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "mutare seminar de joi 16:00 - 18:00 in S4"
+  "text": "mutare seminar de sâmbătă 10:00 - 12:00, joi 10:00 - 12:00 în S4"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Germană juridică 1",
-  "groups": [
-   "1A3",
-   "1A8",
-   "1A9"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare S4 joi 16:00 - 18:00"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Germană juridică 1",
-  "groups": [
-   "1A3",
-   "1A8",
-   "1A9"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "suplimentare seminar de joi 16:00 - 18:00 cu S3"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept european general",
-  "groups": [
-   "1A10"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "mutare seminar de joi 10:00 - 12:00 in CSEI2 - CSE i.2"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept european general",
-  "groups": [
-   "1A10"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare CSEI1 - CSE i.1 joi 10:00 - 12:00"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept european general",
-  "groups": [
-   "1A10"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "mutare seminar de joi 10:00 - 12:00 in CSEI1 - CSE i.1"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept european general",
-  "groups": [
-   "1A10"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare S6 joi 10:00 - 12:00"
- },
- {
-  "at": "2026-10-21T00:00",
+  "at": "2026-10-25T00:00",
   "subject": "Teoria generală a dreptului",
   "groups": [
-   "1A7"
+   "1A6"
   ],
   "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "eliberare S3 joi 16:00 - 18:00"
+  "text": "mutare seminar de joi 10:00 - 12:00, sâmbătă 10:00 - 12:00 în S4"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
   "groups": [
+   "1A5",
+   "1A6"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare AmfIII9 - Amfiteatrul III.9 joi 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A5",
+   "1A6"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de joi 08:00 - 10:00 in AmfIII9 - Amfiteatrul III.9"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A5",
+   "1A6"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare AmfIII9 - Amfiteatrul III.9 joi 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 08:00 - 10:00 in AmfI1 - Amfiteatrul I.1"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare AmfI1 - Amfiteatrul I.1 vineri 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A11",
+   "1A12"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de joi 10:00 - 12:00 in AmfIII9 - Amfiteatrul III.9"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A11",
+   "1A12"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 18:00 - 20:00, joi 10:00 - 12:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A7",
    "1A8"
   ],
-  "teacher": "Asist. drd. Robert DAMASCHIN",
-  "text": "mutare seminar de joi 14:00 - 16:00 in S7"
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de joi 08:00 - 10:00 in AmfIII9 - Amfiteatrul III.9"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Dreptul familiei",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
   "groups": [
-   "3A1"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "mutare seminar de joi 14:00 - 16:00 in CSEI2 - CSE i.2"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Dreptul familiei",
-  "groups": [
-   "3A1"
-  ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare S7 joi 14:00 - 16:00"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept comparat. Sisteme juridice contemporane",
-  "groups": [
+   "1A7",
    "1A8"
   ],
-  "teacher": "Asist. drd. Robert DAMASCHIN",
-  "text": "eliberare CSEI2 - CSE i.2 joi 14:00 - 16:00"
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de sâmbătă 12:00 - 14:00, joi 08:00 - 10:00"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept european general",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
   "groups": [
+   "1A5",
+   "1A6"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de joi 08:00 - 10:00 in AmfIII9 - Amfiteatrul III.9"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A5",
+   "1A6"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de sâmbătă 12:00 - 14:00, joi 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A1",
+   "1A2"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 08:00 - 10:00 in AmfI1 - Amfiteatrul I.1"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A1",
+   "1A2"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 16:00 - 18:00, vineri 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare S6 vineri 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "suplimentare seminar de vineri 08:00 - 10:00 cu AmfI1 - Amfiteatrul I.1"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 08:00 - 10:00 in S6"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 16:00 - 18:00, vineri 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 08:00 - 10:00, vineri 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 17:00 - 19:00, vineri 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 08:00 - 10:00, vineri 17:00 - 19:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A3",
+   "1A4"
+  ],
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "mutare seminar de vineri 16:00 - 18:00, vineri 08:00 - 10:00"
+ },
+ {
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
+  "groups": [
+   "1A10",
    "1A9"
   ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "mutare seminar de joi 12:00 - 14:00 in CSEI2 - CSE i.2"
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare S2 vineri 18:00 - 20:00"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
   "groups": [
-   "1A7"
+   "1A3",
+   "1A4"
   ],
-  "teacher": "Asist. drd. Robert DAMASCHIN",
-  "text": "mutare seminar de joi 12:00 - 14:00 in S7"
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare S2 vineri 16:00 - 18:00"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept comparat. Sisteme juridice contemporane",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
   "groups": [
-   "1A7"
+   "1A5",
+   "1A6"
   ],
-  "teacher": "Asist. drd. Robert DAMASCHIN",
-  "text": "eliberare CSEI2 - CSE i.2 joi 12:00 - 14:00"
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare S2 sâmbătă 12:00 - 14:00"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept european general",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
   "groups": [
-   "1A9"
+   "1A7",
+   "1A8"
   ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare S1VPella - S1(V.Pella) joi 12:00 - 14:00"
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare S2 sâmbătă 12:00 - 14:00"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept european general",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
   "groups": [
-   "1A10"
+   "1A1",
+   "1A2"
   ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "eliberare S1VPella - S1(V.Pella) joi 10:00 - 12:00"
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare S2 vineri 16:00 - 18:00"
  },
  {
-  "at": "2026-10-21T00:00",
-  "subject": "Drept european general",
+  "at": "2026-10-25T00:00",
+  "subject": "Etică și integritate academică",
   "groups": [
-   "1A10"
+   "1A11",
+   "1A12"
   ],
-  "teacher": "Asist. dr. Ana-Maria GOLDAN",
-  "text": "suplimentare seminar de joi 10:00 - 12:00 cu S6"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
-  "groups": [
-   "3A11",
-   "3A4"
-  ],
-  "teacher": "Drd. Sebastian ANTOCE",
-  "text": "mutare seminar de miercuri 18:00 - 20:00 in S3"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
-  "groups": [
-   "3A11",
-   "3A4"
-  ],
-  "teacher": "Drd. Sebastian ANTOCE",
-  "text": "eliberare S2 miercuri 18:00 - 20:00"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
-  "groups": [
-   "3A11",
-   "3A4"
-  ],
-  "teacher": "Drd. Sebastian ANTOCE",
-  "text": "mutare seminar de miercuri 18:00 - 20:00 in S2"
- },
- {
-  "at": "2026-10-21T00:00",
-  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
-  "groups": [
-   "3A11",
-   "3A4"
-  ],
-  "teacher": "Drd. Sebastian ANTOCE",
-  "text": "eliberare S8 miercuri 18:00 - 20:00"
+  "teacher": "Conf. dr. Andra IFTIMIEI",
+  "text": "eliberare S2 vineri 18:00 - 20:00"
  }
 ]
