@@ -734,20 +734,6 @@
    "day": 4,
    "start": "12:00",
    "end": "14:00",
-   "subject": "Drept civil. Principalele contracte",
-   "type": "Seminar",
-   "teacher": "Asist. dr. Sorin MODREANU",
-   "room": "S6",
-   "building": "Corpul A",
-   "freq": null,
-   "pkg": null,
-   "weeks": null,
-   "subgroup": "3A11"
-  },
-  {
-   "day": 4,
-   "start": "12:00",
-   "end": "14:00",
    "subject": "Drept penal - partea specială I",
    "type": "Seminar",
    "teacher": "Spec. dr. Diana-Mihaela CHEPTENE-MICU",
@@ -988,7 +974,7 @@
    "end": "12:00",
    "subject": "Drept penal - partea specială I",
    "type": "Curs",
-   "teacher": "Prof. dr. Tudorel TOADER",
+   "teacher": "",
    "room": "Amfiteatrul I.1",
    "building": "Corpul A",
    "freq": null,
@@ -1149,6 +1135,20 @@
    "pkg": null,
    "weeks": null,
    "subgroup": "IFAnIII"
+  },
+  {
+   "day": 6,
+   "start": "13:00",
+   "end": "15:00",
+   "subject": "Drept civil. Principalele contracte",
+   "type": "Seminar",
+   "teacher": "Asist. dr. Sorin MODREANU",
+   "room": "S8",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null,
+   "subgroup": "3A11"
   }
  ],
  "unique": []

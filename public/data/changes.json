@@ -1,350 +1,470 @@
 [
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
-  "groups": [
-   "1A10",
-   "1A9"
-  ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare AmfII6 - Amfiteatrul II6 marți 08:00 - 10:00"
- },
- {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
-  "groups": [
-   "1A5",
-   "1A6"
-  ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de joi 08:00 - 10:00 in AmfIII9 - Amfiteatrul III.9"
- },
- {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
-  "groups": [
-   "1A10",
-   "1A9"
-  ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "suplimentare seminar de marți 08:00 - 10:00 cu AmfIII9 - Amfiteatrul III.9"
- },
- {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
-  "groups": [
-   "1A11",
-   "1A12"
-  ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de joi 10:00 - 12:00, marți 08:00 - 10:00 în AmfIII9"
- },
- {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
-  "groups": [
-   "1A10",
-   "1A9"
-  ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de marți 08:00 - 10:00 in AmfII6 - Amfiteatrul II6"
- },
- {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
-  "groups": [
-   "1A10",
-   "1A9"
-  ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 18:00 - 20:00, marți 08:00 - 10:00"
- },
- {
-  "at": "2026-10-25T00:00",
+  "at": "2026-10-28T00:00",
   "subject": "Teoria generală a dreptului",
   "groups": [
-   "1A6"
+   "1A2"
   ],
   "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "mutare seminar de sâmbătă 10:00 - 12:00, joi 10:00 - 12:00 în S4"
+  "text": "mutare seminar de marți 18:00 - 20:00 in S6"
  },
  {
-  "at": "2026-10-25T00:00",
+  "at": "2026-10-28T00:00",
   "subject": "Teoria generală a dreptului",
   "groups": [
-   "1A6"
+   "1A2"
   ],
   "teacher": "Asist. drd. Laura POSTOLACHE",
-  "text": "mutare seminar de joi 10:00 - 12:00, sâmbătă 10:00 - 12:00 în S4"
+  "text": "eliberare S8 marți 18:00 - 20:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Teoria generală a dreptului",
   "groups": [
-   "1A5",
-   "1A6"
+   "1A11"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare AmfIII9 - Amfiteatrul III.9 joi 08:00 - 10:00"
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "mutare seminar de marți 16:00 - 18:00 in S6"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Teoria generală a dreptului",
   "groups": [
-   "1A5",
-   "1A6"
+   "1A11"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de joi 08:00 - 10:00 in AmfIII9 - Amfiteatrul III.9"
+  "teacher": "Asist. drd. Laura POSTOLACHE",
+  "text": "eliberare S7 marți 16:00 - 18:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept procesual civil I",
   "groups": [
-   "1A5",
-   "1A6"
+   "4A2"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare AmfIII9 - Amfiteatrul III.9 joi 08:00 - 10:00"
+  "teacher": "Drd. Costin BUSUIOC",
+  "text": "mutare seminar de miercuri 18:00 - 20:00 in S2"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept procesual civil I",
   "groups": [
-   "1A3",
-   "1A4"
+   "4A2"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 08:00 - 10:00 in AmfI1 - Amfiteatrul I.1"
+  "teacher": "Drd. Costin BUSUIOC",
+  "text": "mutare seminar de vineri 16:00 - 18:00, miercuri 18:00 - 20:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept procesual civil I",
   "groups": [
-   "1A3",
-   "1A4"
+   "4A2"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare AmfI1 - Amfiteatrul I.1 vineri 08:00 - 10:00"
+  "teacher": "Drd. Costin BUSUIOC",
+  "text": "eliberare S7 vineri 16:00 - 18:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Teoria generală a dreptului",
   "groups": [
-   "1A11",
-   "1A12"
+   "IFAnI"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de joi 10:00 - 12:00 in AmfIII9 - Amfiteatrul III.9"
+  "teacher": "Lect. dr. Despina Martha ILUCĂ",
+  "text": "mutare curs de sâmbătă 10:00 - 12:00, luni 18:00 - 20:00 în AmfI1"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept civil. Partea generală",
   "groups": [
-   "1A11",
-   "1A12"
+   "IFAnI"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 18:00 - 20:00, joi 10:00 - 12:00"
+  "teacher": "",
+  "text": "mutare curs de marți 11:00 - 13:00, marți 10:00 - 12:00 în AmfI1"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept civil. Partea generală",
   "groups": [
-   "1A7",
-   "1A8"
+   "IFAnI"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de joi 08:00 - 10:00 in AmfIII9 - Amfiteatrul III.9"
+  "teacher": "",
+  "text": "mutare curs de luni 18:00 - 20:00, marți 11:00 - 13:00 în AmfI1"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Teoria generală a dreptului",
   "groups": [
-   "1A7",
-   "1A8"
+   "IFAnI"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de sâmbătă 12:00 - 14:00, joi 08:00 - 10:00"
+  "teacher": "Lect. dr. Despina Martha ILUCĂ",
+  "text": "mutare curs de marți 10:00 - 12:00, sâmbătă 10:00 - 12:00 în AmfI1"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
   "groups": [
-   "1A5",
-   "1A6"
+   "IFAnIII"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de joi 08:00 - 10:00 in AmfIII9 - Amfiteatrul III.9"
+  "teacher": "Lect. dr. Despina Martha ILUCĂ",
+  "text": "mutare curs de sâmbătă 10:00 - 12:00, marți 12:00 - 14:00 în AmfI1"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Dreptul Uniunii Europene: spațiul de libertate, securitate și justiție",
   "groups": [
-   "1A5",
-   "1A6"
+   "IFAnIII"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de sâmbătă 12:00 - 14:00, joi 08:00 - 10:00"
+  "teacher": "Lect. dr. Despina Martha ILUCĂ",
+  "text": "mutare curs de marți 12:00 - 14:00, sâmbătă 10:00 - 12:00 în AmfI1"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A1",
+   "IFAnIV"
+  ],
+  "teacher": "",
+  "text": "mutare curs de vineri 11:00 - 14:00 in AmfIII9 - Amfiteatrul III.9"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept civil. Partea generală",
+  "groups": [
    "1A2"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 08:00 - 10:00 in AmfI1 - Amfiteatrul I.1"
+  "teacher": "Asist. dr. Aura - Elena AMIRONESEI",
+  "text": "mutare seminar de vineri 12:00 - 14:00 in S2"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept civil. Partea generală",
   "groups": [
-   "1A1",
    "1A2"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 16:00 - 18:00, vineri 08:00 - 10:00"
+  "teacher": "Asist. dr. Aura - Elena AMIRONESEI",
+  "text": "eliberare AmfIII9 - Amfiteatrul III.9 vineri 12:00 - 14:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept civil. Principalele contracte",
   "groups": [
-   "1A3",
-   "1A4"
+   "3A11"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare S6 vineri 08:00 - 10:00"
+  "teacher": "Asist. dr. Sorin MODREANU",
+  "text": "mutare seminar de joi 12:00 - 14:00, sâmbătă 13:00 - 15:00 în S8"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A3",
-   "1A4"
+   "4A3"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "suplimentare seminar de vineri 08:00 - 10:00 cu AmfI1 - Amfiteatrul I.1"
+  "teacher": "",
+  "text": "mutare seminar de joi 12:00 - 14:00 in S6"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept civil. Principalele contracte",
   "groups": [
-   "1A3",
-   "1A4"
+   "3A11"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 08:00 - 10:00 in S6"
+  "teacher": "Asist. dr. Sorin MODREANU",
+  "text": "mutare seminar de joi 12:00 - 14:00 in S8"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept civil. Principalele contracte",
   "groups": [
-   "1A3",
-   "1A4"
+   "3A11"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 16:00 - 18:00, vineri 08:00 - 10:00"
+  "teacher": "Asist. dr. Sorin MODREANU",
+  "text": "eliberare S6 joi 12:00 - 14:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A3",
-   "1A4"
+   "4A3"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 08:00 - 10:00, vineri 16:00 - 18:00"
+  "teacher": "",
+  "text": "mutare seminar de luni 12:00 - 14:00, joi 12:00 - 14:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A3",
-   "1A4"
+   "4A3"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 17:00 - 19:00, vineri 16:00 - 18:00"
+  "teacher": "",
+  "text": "mutare seminar de joi 12:00 - 14:00, luni 12:00 - 14:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A3",
-   "1A4"
+   "4A3"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 08:00 - 10:00, vineri 17:00 - 19:00"
+  "teacher": "",
+  "text": "mutare seminar de vineri 16:00 - 18:00, joi 12:00 - 14:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A3",
-   "1A4"
+   "4A2"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "mutare seminar de vineri 16:00 - 18:00, vineri 08:00 - 10:00"
+  "teacher": "",
+  "text": "mutare seminar de marți 14:00 - 16:00 in AmfP10 - Amfiteatrul P10"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept administrativ I",
   "groups": [
-   "1A10",
-   "1A9"
+   "2A12"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare S2 vineri 18:00 - 20:00"
+  "teacher": "Asist. dr. Ioan - Dumitru APACHIȚEI",
+  "text": "mutare seminar de marți 12:00 - 14:00 in S7"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A3",
-   "1A4"
+   "4A1"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare S2 vineri 16:00 - 18:00"
+  "teacher": "",
+  "text": "mutare seminar de marți 12:00 - 14:00 in S5"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept administrativ I",
   "groups": [
-   "1A5",
-   "1A6"
+   "2A12"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare S2 sâmbătă 12:00 - 14:00"
+  "teacher": "Asist. dr. Ioan - Dumitru APACHIȚEI",
+  "text": "eliberare S5 marți 12:00 - 14:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A7",
-   "1A8"
+   "4A1"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare S2 sâmbătă 12:00 - 14:00"
+  "teacher": "",
+  "text": "eliberare S7 marți 12:00 - 14:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A1",
-   "1A2"
+   "4A2"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare S2 vineri 16:00 - 18:00"
+  "teacher": "",
+  "text": "eliberare S7 marți 14:00 - 16:00"
  },
  {
-  "at": "2026-10-25T00:00",
-  "subject": "Etică și integritate academică",
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
   "groups": [
-   "1A11",
-   "1A12"
+   "4A2"
   ],
-  "teacher": "Conf. dr. Andra IFTIMIEI",
-  "text": "eliberare S2 vineri 18:00 - 20:00"
+  "teacher": "",
+  "text": "mutare seminar de marți 14:00 - 16:00 in S7"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A2"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de marți 18:00 - 20:00, marți 14:00 - 16:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A1"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de marți 12:00 - 14:00 in S7"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A1"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de marți 16:00 - 18:00, marți 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A2"
+  ],
+  "teacher": "",
+  "text": "eliberare S6 marți 18:00 - 20:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A1"
+  ],
+  "teacher": "",
+  "text": "eliberare S6 marți 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de luni 12:00 - 14:00, vineri 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "eliberare AmfII6 - Amfiteatrul II6 luni 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de luni 12:00 - 14:00 in AmfII6 - Amfiteatrul II6"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de luni 10:00 - 12:00, luni 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de marți 12:00 - 14:00, luni 10:00 - 12:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de luni 12:00 - 14:00, marți 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de joi 12:00 - 14:00, luni 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de vineri 16:00 - 18:00, joi 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "IFAnIV"
+  ],
+  "teacher": "",
+  "text": "mutare curs de vineri 09:00 - 12:00, vineri 11:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "IFAnIV"
+  ],
+  "teacher": "",
+  "text": "mutare curs de vineri 11:00 - 14:00, vineri 09:00 - 12:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de vineri 09:00 - 11:00, vineri 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de vineri 16:00 - 18:00, vineri 09:00 - 11:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "IFAnIV"
+  ],
+  "teacher": "",
+  "text": "mutare curs de vineri 09:00 - 12:00, vineri 11:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "IFAnIV"
+  ],
+  "teacher": "",
+  "text": "eliberare AmfIII9 - Amfiteatrul III.9 vineri 09:00 - 12:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de vineri 12:00 - 14:00, vineri 16:00 - 18:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "mutare seminar de vineri 16:00 - 18:00, vineri 12:00 - 14:00"
+ },
+ {
+  "at": "2026-10-28T00:00",
+  "subject": "Drept comercial",
+  "groups": [
+   "4A3"
+  ],
+  "teacher": "",
+  "text": "eliberare S3 vineri 16:00 - 18:00"
  }
 ]
