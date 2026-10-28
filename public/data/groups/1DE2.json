@@ -29,13 +29,13 @@
    "weeks": null
   },
   {
-   "day": 4,
-   "start": "18:00",
-   "end": "20:00",
+   "day": 5,
+   "start": "16:00",
+   "end": "18:00",
    "subject": "Drept penal european",
-   "type": "Seminar",
+   "type": "Curs",
    "teacher": "",
-   "room": "S3",
+   "room": "Amfiteatrul M.E.",
    "building": "Corpul A",
    "freq": null,
    "pkg": null,
@@ -43,10 +43,10 @@
   },
   {
    "day": 5,
-   "start": "16:00",
-   "end": "18:00",
+   "start": "18:00",
+   "end": "20:00",
    "subject": "Drept penal european",
-   "type": "Curs",
+   "type": "Seminar",
    "teacher": "",
    "room": "Amfiteatrul M.E.",
    "building": "Corpul A",
@@ -213,19 +213,6 @@
    "weeks": null
   },
   {
-   "date": "2026-10-02",
-   "start": "18:00",
-   "end": "20:00",
-   "subject": "Drept internațional privat european în raporturile de comerț internațional",
-   "type": "Seminar",
-   "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
-   "room": "S6",
-   "building": "Corpul A",
-   "freq": null,
-   "pkg": null,
-   "weeks": null
-  },
-  {
    "date": "2026-11-11",
    "start": "14:00",
    "end": "16:00",
@@ -260,19 +247,6 @@
    "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
    "room": "",
    "building": null,
-   "freq": null,
-   "pkg": null,
-   "weeks": null
-  },
-  {
-   "date": "2026-11-13",
-   "start": "18:00",
-   "end": "20:00",
-   "subject": "Drept internațional privat european în raporturile de comerț internațional",
-   "type": "Seminar",
-   "teacher": "Prof. dr. Carmen Tamara UNGUREANU",
-   "room": "Amfiteatrul M.E.",
-   "building": "Corpul A",
    "freq": null,
    "pkg": null,
    "weeks": null

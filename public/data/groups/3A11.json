@@ -121,6 +121,19 @@
   },
   {
    "day": 4,
+   "start": "12:00",
+   "end": "14:00",
+   "subject": "Drept civil. Principalele contracte",
+   "type": "Seminar",
+   "teacher": "Asist. dr. Sorin MODREANU",
+   "room": "S8",
+   "building": "Corpul A",
+   "freq": null,
+   "pkg": null,
+   "weeks": null
+  },
+  {
+   "day": 4,
    "start": "14:00",
    "end": "16:00",
    "subject": "Dreptul Uniunii Europene. Piața unică",
@@ -220,19 +233,6 @@
    "room": "S3",
    "building": "Corpul A",
    "freq": "odd",
-   "pkg": null,
-   "weeks": null
-  },
-  {
-   "day": 6,
-   "start": "13:00",
-   "end": "15:00",
-   "subject": "Drept civil. Principalele contracte",
-   "type": "Seminar",
-   "teacher": "Asist. dr. Sorin MODREANU",
-   "room": "S8",
-   "building": "Corpul A",
-   "freq": null,
    "pkg": null,
    "weeks": null
   }
